@@ -1,0 +1,66 @@
+.navstyle {
+    background-color: #151816;
+    opacity: 0.8;
+}
+
+.navstyle>ul {
+    margin-right: 0px;
+    margin-top: 5px;
+}
+
+.navbar-right {
+    padding-top: 5px;
+}
+
+.navbutton {
+    background-color: #151816;
+    border: none;
+    color: #ffffff;
+    height: 45px;
+    margin-right: 2px;
+    font-weight: bold;
+}
+
+.navbutton:hover {
+    background-color: rgb(8, 100, 39);
+}
+
+.settings {
+    margin-right: 20px;
+    background-color: #F94B1F;
+    color: #000000;
+}
+
+#settings {
+    margin-right: 20px;
+    background-color: #151816;    
+    font-weight: bold;
+}
+
+#settings:hover {
+    background-color: rgb(8, 100, 39);
+}
+
+.navopen {
+    background-color: #F94B1F;
+    color: #000000;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+@media (max-width: 767px) {
+    /* sm screen login*/
+    .logo {
+        margin-left: 0px;
+    }
+    .navstyle>ul {
+        padding: 2px;
+        margin-right: 0px;
+    }
+    .navbutton {
+        width: 100%;
+        margin-bottom: 2px;
+    }
+}
